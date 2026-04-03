@@ -1,1 +1,0 @@
-(function(){self.onmessage=({data:e})=>{try{JSON.parse(e),self.postMessage({result:!0})}catch(e){self.postMessage({error:e.message})}}})();
